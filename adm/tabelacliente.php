@@ -62,14 +62,25 @@
                         <tr>
                            <td><?php echo ucfirst("$dados[Nome_cliente]"); ?></td>
                            <td><?php echo ucfirst("$dados[Telefone_cliente]"); ?></td>
+                  
 
 
+                               <td>
+                              <a href="#" class="text-secondary" data-toggle="modal" data-target="#modalvisualizar" 
+                                 data-whatever="<?php echo $dados['Id_Cliente'];?>"
+                                 data-whatevernomecliente="<?php echo $dados['Nome_cliente'];?>"
+                                 data-whatevertelefonecliente="<?php echo $dados['Telefone_cliente'];?>"
+                                 data-whateveremailcliente="<?php echo $dados['Email_cliente'];?>"
+                                 data-whatevercepcliente="<?php echo $dados['Cep_cliente'];?>"
+                                 data-whateverruacliente="<?php echo $dados['Rua_cliente'];?>"
+                                 data-whateverbairrocliente="<?php echo $dados['Bairro_cliente'];?>"
+                                 data-whatevercidadecliente="<?php echo $dados['Cidade_cliente'];?>"
+                                 data-whateverestadocliente="<?php echo $dados['Estado_cliente'];?>">
+                                 <i class="material-icons">remove_red_eye</i>
+                              </a>
+                           </td>
 
-
-
-                           <td><a class="text-secondary" data-toggle="modal" data-target="#modalexibeinformacoes" data-cliente-id="<?php echo $dados['Id_Cliente']; ?>"> <i class="material-icons">remove_red_eye</i></a></td>
-
-
+            
                            <td><a class="text-sucess" href="clientealterar.php?codcliente=<?php echo "$dados[Id_Cliente]";?>"><i class="material-icons">cached</i></a></td>
                            <td><a class="text-danger" href="excluircliente.php?codcliente=<?php echo $dados['Id_Cliente']; ?>"> <i class="material-icons">delete</i></a></td>
                         </tr>
@@ -77,6 +88,7 @@
                            }
                            
                            // fechando o FOR
+                           
                            ?>
                      </tbody>
                   </table>
@@ -88,6 +100,7 @@
 </div>
 <?php } else {
    // fechando o if
+
    ?>
 <div class="section">
    <div class="container">
