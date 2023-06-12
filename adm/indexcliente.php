@@ -30,6 +30,8 @@
         <!-- Script: Animated entrance -->
         <script src="../js/animate-in.js"></script>
         <!-- Ícone -->
+        <script src="js/visualizar.js"></script>
+
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
     
@@ -81,6 +83,136 @@
             </div>
         </nav>
      
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- modal vizualizar ==================================================================================================================================-->
+ <div class="modal fade" id="modalvisualizar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Informações do cliente</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+
+
+
+                  <form>
+
+
+                  <div class="row">
+      <div class="col-md-6">
+         <div class="form-group">
+            <label>Nome do Cliente</label>
+            <input type="text" class="form-control" id="nomecliente">
+         </div>
+      </div>
+      <div class="col-md-6">
+         <div class="form-group">
+            <label>Telefone/Celular do responsável</label>
+            <input type="text" class="form-control" id="telefonecliente">
+         </div>
+      </div>
+   </div>
+   <hr class="mb-2" />
+   <div class="row">
+      <div class="col-md-12">
+         <div class="form-group">
+            <label>Email</label>
+            <input type="text" class="form-control" id="emailcliente">
+         </div>
+      </div>
+   </div>
+   <hr class="mb-2" />
+   <div class="row">
+      <div class="col-md-4">
+         <div class="form-group">
+            <label>CEP</label>
+            <input type="text" class="form-control" id="cepcliente">
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div class="form-group">
+            <label>Rua</label>
+            <input type="text" class="form-control" id="ruacliente">
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div class="form-group">
+            <label>Número</label>
+            <input type="text" class="form-control" id="numerocliente">
+         </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-md-4">
+         <div class="form-group">
+            <label>Bairro</label>
+            <input type="text" class="form-control" id="bairrocliente">
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div class="form-group">
+            <label>Cidade</label>
+            <input type="text" class="form-control" id="cidadecliente">
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div class="form-group">
+            <label>Estado</label>
+            <input type="text" class="form-control" id="estadocliente">
+         </div>
+      </div>
+   </div>
+
+
+                  </form>
+
+
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--fim modal visualizar ==================================================================================================================================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <!-- menu central ==================================================================================================================================-->
         <div class="py-5">
@@ -137,9 +269,6 @@
           require("../conexao/conexao.php");      
           
           require("tabelacliente.php");
-          
-          
-          
           
           
                       
