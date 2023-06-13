@@ -73,6 +73,7 @@
                                  data-whateveremailcliente="<?php echo $dados['Email_cliente'];?>"
                                  data-whatevercepcliente="<?php echo $dados['Cep_cliente'];?>"
                                  data-whateverruacliente="<?php echo $dados['Rua_cliente'];?>"
+                                 data-whatevernumerocliente="<?php echo $dados['Numero_cliente'];?>"
                                  data-whateverbairrocliente="<?php echo $dados['Bairro_cliente'];?>"
                                  data-whatevercidadecliente="<?php echo $dados['Cidade_cliente'];?>"
                                  data-whateverestadocliente="<?php echo $dados['Estado_cliente'];?>">

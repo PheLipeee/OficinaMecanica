@@ -30,7 +30,7 @@
         <!-- Script: Animated entrance -->
         <script src="../js/animate-in.js"></script>
         <!-- Ícone -->
-        <script src="js/visualizar.js"></script>
+        <script src="../js/visualizar.js"></script>
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
@@ -111,7 +111,7 @@
 
 
                   <form>
-
+                  <input type="hidden" class="form-control" id="id" />
 
                   <div class="row">
       <div class="col-md-6">

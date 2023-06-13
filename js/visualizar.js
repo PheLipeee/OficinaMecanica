@@ -7,6 +7,7 @@
     var recipientwhateveremailcliente = button.data('whateveremailcliente')
     var recipientwhatevercepcliente = button.data('whatevercepcliente')
     var recipientwhateverruacliente = button.data('whateverruacliente')
+    var recipientwhatevernumerocliente = button.data('whatevernumerocliente')
     var recipientwhateverbairrocliente = button.data('whateverbairrocliente')
     var recipientwhatevercidadecliente = button.data('whatevercidadecliente')
     var recipientwhateverestadocliente = button.data('whateverestadocliente')
@@ -18,10 +19,12 @@
     modal.find('#emailcliente').val(recipientwhateveremailcliente)
     modal.find('#cepcliente').val(recipientwhatevercepcliente)
     modal.find('#ruacliente').val(recipientwhateverruacliente)
+    modal.find('#numerocliente').val(recipientwhatevernumerocliente)
     modal.find('#bairrocliente').val(recipientwhateverbairrocliente)
     modal.find('#cidadecliente').val(recipientwhatevercidadecliente)
     modal.find('#estadocliente').val(recipientwhateverestadocliente)
+
+
  })
 
 
- 
